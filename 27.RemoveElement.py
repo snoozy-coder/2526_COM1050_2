@@ -1,7 +1,7 @@
 from typing import List
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
-        l = 0                                                   #Đặt trỏ trái bằng 0
+        l = 0                                                 #Đặt trỏ trái bằng 0
 
         for r in range(len(nums)):                              #Duyệt trỏ phải
             if nums[r] != val:                                  #Nếu số tại trỏ phải khác số cần lược bỏ
